@@ -1,0 +1,96 @@
+body{
+    background-color: #20283b;
+}
+.header{
+    background-color: #0f172a;
+    color: white;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.header h1{
+    padding-left: 100px;
+}
+.header span{
+    color: #4d74ce;
+}
+.navclass{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+   padding-right: 150px;
+
+}
+.navclass a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.hero{
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    background-color: #152344;
+    border-radius: 10px;
+    min-height: 80vh;
+     padding-left: 150px;
+
+}
+.hero-content{
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+}
+.hero-content h3{
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.hero-content h1{
+    color:white;
+    bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.hero-content span{
+    color: #4d74ce;
+}
+.hero-content p{
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.btn{
+    padding: 10px 15px;
+    color: white;
+    padding-top: 50px;
+    
+}
+.btn-1{
+    border: 1px solid #4d74ce;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #4d74ce;
+
+}
+.btn-2{
+        border: 1px solid #4d74ce;
+        color: white;
+        padding: 10px 15px;
+        background-color: transparent;
+        border-radius: 5px;
+}
+.btn-1:hover{
+    background-color: transparent;
+}
+.btn-2:hover{
+    background-color: lightblue;
+}
